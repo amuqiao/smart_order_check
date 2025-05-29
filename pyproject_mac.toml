@@ -8,9 +8,7 @@ dependencies = [
     "faiss-cpu>=1.11.0",
     "fastapi[standard]>=0.115.12",
     "modelscope>=1.26.0",
-    "numpy>=2.2.6",
     "sentence-transformers>=4.1.0",
-    "torch==2.2.2", # 明确指定支持 macOS Intel 的版本
 ]
 [[tool.uv.index]]
 url = "https://mirrors.aliyun.com/pypi/simple/"
